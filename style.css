@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+
+body {
+    background-color: #D8BFD8;
+    font-family: 'Pangolin', cursive;
+    overflow: hidden;
+}
+
+button {
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: none;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.create-column {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color:	#8A2BE2;
+    box-shadow: 2px 3px 5px grey;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p,
+.column-title {
+    margin: 0;
+}
+
+.create-column,
+.btn-delete,
+.card-description,
+.add-card {
+    cursor: pointer;
+}
+
+.column-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    min-height: 300px;
+}
+
+.column {
+    background-color: #4682B4;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    text-align: center;
+    padding: 2px;
+}
+
+.column-title, 
+.add-card {
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-delete:hover {
+    color: #000;
+}
+
+.column > .btn-delete {
+    top: 1px;
+}
+.column-title,
+.btn-delete,
+.card-description {
+    display: inline;
+}
+.btn-delete {
+    float: right;
+    background-color: #87CEEB;
+    border: none;
+    padding: 10px;
+}
+
+.column-card-list {
+    list-style: none;
+    padding: 5px;
+    margin: 30px, auto;
+}
+
+.card {
+    border-radius: 3px;
+    overflow: hidden;
+    line-height: 32px;
+    background-color: #ADD8E6;
+    margin-bottom: 1px;
+}
+
+.card-description {
+    min-height: 20px;
+}
+
+.add-card {
+    background-color: #9BC2D3;
+    box-shadow: 2px 3px 5px grey;
+    border: none;
+    margin-top: 20px;
+    display: block;
+}
