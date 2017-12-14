@@ -78,11 +78,13 @@ p,
 .column > .btn-delete {
     top: 1px;
 }
+
 .column-title,
 .btn-delete,
 .card-description {
     display: inline;
 }
+
 .btn-delete {
     float: right;
     background-color: #87CEEB;
